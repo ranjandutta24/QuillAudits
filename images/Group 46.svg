@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="191.57" height="47.621" viewBox="0 0 191.57 47.621">
+  <defs>
+    <filter id="Path_4" x="0" y="2.437" width="45.184" height="45.184" filterUnits="userSpaceOnUse">
+      <feOffset dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_46" data-name="Group 46" transform="translate(1.571 0)">
+    <g id="Audits" transform="translate(0 0)">
+      <path id="Path_1" data-name="Path 1" d="M.726,16.83,18.511,0l1.573,2.37L3.267,18.785v.059L16.333,31.7l-.968,2.667L0,18.963Z" fill="#fff" opacity="0.98"/>
+      <path id="Path_2" data-name="Path 2" d="M46.321,21.7c0,.06.06.06.06.121A.187.187,0,0,0,46.321,21.7ZM41.3,18.86l.121-.06A.187.187,0,0,1,41.3,18.86Z" transform="translate(-16.316 -7.655)" fill="#fff"/>
+      <path id="Path_3" data-name="Path 3" d="M55.358,23.6,37.573,40.37,36,38,52.817,21.644v-.059L39.811,8.667,40.779,6,56.144,21.467Z" transform="translate(-14.222 -2.37)" fill="#fff"/>
+      <g transform="matrix(1, 0, 0, 1, -1.57, 0)" filter="url(#Path_4)">
+        <path id="Path_4-2" data-name="Path 4" d="M22.2,34.684a14.088,14.088,0,0,1,.665-1.694A26.856,26.856,0,0,1,26.8,27.243a33.062,33.062,0,0,1,6.775-5.868,14.65,14.65,0,0,1,3.509-1.754c.06-.06.181-.06.3-.121l-.726.907a28.409,28.409,0,0,0-2.3,3.025c-.06.121-.121.121-.242.121a6.576,6.576,0,0,1-1.573.242,1.915,1.915,0,0,0,.726.484c.121.06.363.06.423.242,0,.121-.181.3-.242.423a.872.872,0,0,1-.665.544,6.082,6.082,0,0,1-1.512.242c0,.121.06.121.121.181a3.363,3.363,0,0,0,1.028.544c.121.06.121.121.06.242a.8.8,0,0,1-.665.484,10.907,10.907,0,0,1-2.359.484H29.4a3.325,3.325,0,0,0,.544.423,6.451,6.451,0,0,0,1.149.423c.06,0,.121.06.06.121a4.673,4.673,0,0,1-1.028,1.149,1.375,1.375,0,0,1-1.089.3H27.644a6.575,6.575,0,0,0-1.089.06,1.122,1.122,0,0,0-.726.423,11.086,11.086,0,0,0-1.391,2.3l-.181.363a1.281,1.281,0,0,1-.847.907,4.175,4.175,0,0,0-1.21.544Z" transform="translate(-7.2 -8.06)" fill="#fff" fill-rule="evenodd"/>
+      </g>
+    </g>
+    <text id="QuillAudits" transform="translate(51 27.722)" fill="#fff" font-size="27" font-family="VisbyCF-DemiBold, Visby CF" font-weight="300" letter-spacing="0.025em"><tspan x="0" y="0">QuillAudits</tspan></text>
+  </g>
+</svg>
