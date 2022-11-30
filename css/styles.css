@@ -1,12 +1,5 @@
 :root {
   --color-primary: #2584ff;
-  --color-secondary: #00d9ff;
-  --color-accent: #ff3400;
-  --color-headings: #fdfdfd;
-  --color-body: #918ca4;
-  --color-body-darker: #5c5577;
-  --color-border: #ccc;
-  --border-radius: 30px;
 }
 
 *,
@@ -41,7 +34,7 @@ button {
 h1,
 h2,
 h3 {
-  color: var(--color-headings);
+  /* color: var(--color-headings); */
   margin-bottom: 1rem;
   line-height: 1.1;
 }
@@ -472,7 +465,7 @@ article {
 }
 .blog_holder {
   display: flex;
-  padding: 3rem 30rem 5rem 30rem;
+  padding: 0rem 30rem 5rem 30rem;
   justify-content: space-between;
 }
 .mask_card {
@@ -484,18 +477,42 @@ article {
   font: normal normal 600 22px/32px Jost;
   letter-spacing: 0px;
   color: #2d83ee;
+  margin: 10px 0;
 }
 .date {
   text-align: left;
   font: normal normal 500 16px/32px Jost;
   letter-spacing: 0px;
   color: #391400;
+  margin-bottom: 8px;
 }
 .about_mask {
   text-align: left;
   font: normal normal 500 16px/23px Jost;
   letter-spacing: 0px;
   color: #391400;
+}
+.hashinh {
+  height: 503px;
+  background: #051653 0% 0% no-repeat padding-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 50px 10px 0;
+}
+.hashinh .left {
+  width: 833px;
+  padding-left: 300px;
+}
+.right img {
+  width: 700px;
+  position: absolute;
+}
+#relt {
+  position: relative;
+  /* top: 30px; */
+  scale: 0.4;
+  /* width: 273px; */
 }
 @media screen and (min-width: 768px) {
   .nav__toggler {
