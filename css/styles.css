@@ -116,7 +116,7 @@ a {
   text-decoration: none;
 }
 .nav__item button {
-  border: none;
+  /* border: none;
   border-radius: 10px;
   padding: 8px 30px;
   box-shadow: 5px 8px 10px #00000029;
@@ -127,7 +127,7 @@ a {
     rgba(69, 123, 241, 1) 55%,
     rgba(93, 128, 247, 1) 98%
   );
-  color: #d2d0db;
+  color: #d2d0db; */
 }
 
 .grid {
@@ -238,7 +238,7 @@ a {
   width: 150px;
 }
 article {
-  padding: 10rem 30rem;
+  padding: 10rem 30rem 5rem 30rem;
 }
 .feature:nth-of-type(odd) .feature__content {
   order: 2;
@@ -263,10 +263,38 @@ article {
 }
 .feature_text {
   text-align: left;
-  font: normal normal normal 18px/32px Jost;
+  font: normal normal 500 18px/32px Jost;
   letter-spacing: 0px;
   color: #391400;
   opacity: 1;
+}
+.gred_btn {
+  border: none;
+  border-radius: 10px;
+  padding: 12px 30px;
+  box-shadow: 5px 8px 10px #00000029;
+  background: rgb(78, 57, 238);
+  background: linear-gradient(
+    90deg,
+    rgba(78, 57, 238, 1) 0%,
+    rgba(69, 123, 241, 1) 55%,
+    rgba(93, 128, 247, 1) 98%
+  );
+  color: #d2d0db;
+}
+.feature__image {
+  width: 400px;
+}
+.first {
+  width: 600px;
+}
+.second {
+  margin-left: 150px;
+  /* width: 450px; */
+}
+.web3__image {
+  width: 90%;
+  margin: 50px 5% 0 5%;
 }
 @media screen and (min-width: 768px) {
   .nav__toggler {
