@@ -45,7 +45,9 @@ h3 {
   margin-bottom: 1rem;
   line-height: 1.1;
 }
-
+h6 {
+  margin: 0;
+}
 header {
   top: -8.000213623046875px;
   left: -14px;
@@ -395,6 +397,7 @@ article {
   border-radius: 15px;
   opacity: 1;
   margin-top: 30px;
+  box-shadow: 5px 5px 15px #00000029;
 }
 .card img {
   margin-top: 10px;
@@ -405,6 +408,48 @@ article {
   letter-spacing: 0px;
   color: #2d83ee;
   margin: 10px 0 0 0;
+}
+.testimonial {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 3rem 30rem 5rem 30rem;
+  margin-top: 80px;
+}
+.stack_os {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 30rem 5rem 30rem;
+  text-align: center;
+}
+.stack_card {
+  width: 372px;
+  height: 216px;
+}
+.stack_card img {
+  width: 177px;
+}
+.commant {
+  font: normal normal 500 18px/32px Jost;
+  letter-spacing: 0px;
+  color: #391400;
+  margin-bottom: 30px;
+}
+.name {
+  font: normal normal 600 22px/32px Jost;
+  letter-spacing: 0px;
+  color: #391400;
+  text-transform: capitalize;
+}
+.position {
+  font: normal normal 500 16px/32px Jost;
+  letter-spacing: 0px;
+  color: #391400;
+}
+.faq {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 35rem 5rem 35rem;
 }
 @media screen and (min-width: 768px) {
   .nav__toggler {
