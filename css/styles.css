@@ -409,7 +409,8 @@ article {
   color: #2d83ee;
   margin: 10px 0 0 0;
 }
-.testimonial {
+.testimonial,
+.our_blog {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
@@ -449,7 +450,52 @@ article {
 .faq {
   display: flex;
   justify-content: space-between;
-  padding: 3rem 35rem 5rem 35rem;
+  padding: 3rem 40rem 5rem 40rem;
+}
+.faq_box {
+  width: 570px;
+  height: 273px;
+  box-shadow: 0px 32px 64px #3914000a;
+  border: 1px solid #2d83ee;
+  border-radius: 6px 6px 0px 0px;
+}
+.narrow {
+  width: 470px;
+  padding-right: 40px;
+}
+.faq_text {
+  text-align: left;
+  font: normal normal normal 18px/32px Jost;
+  letter-spacing: 0px;
+  color: #391400;
+  margin: 20px 0;
+}
+.blog_holder {
+  display: flex;
+  padding: 3rem 30rem 5rem 30rem;
+  justify-content: space-between;
+}
+.mask_card {
+  height: 420px;
+  width: 370px;
+}
+.mask_link {
+  text-align: left;
+  font: normal normal 600 22px/32px Jost;
+  letter-spacing: 0px;
+  color: #2d83ee;
+}
+.date {
+  text-align: left;
+  font: normal normal 500 16px/32px Jost;
+  letter-spacing: 0px;
+  color: #391400;
+}
+.about_mask {
+  text-align: left;
+  font: normal normal 500 16px/23px Jost;
+  letter-spacing: 0px;
+  color: #391400;
 }
 @media screen and (min-width: 768px) {
   .nav__toggler {
