@@ -382,6 +382,30 @@ article {
   z-index: 999;
   position: relative;
 }
+.card_holder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 3rem 30rem 5rem 30rem;
+}
+.card {
+  width: 420px;
+  height: 260px;
+  border: 1px solid #2d83ee;
+  border-radius: 15px;
+  opacity: 1;
+  margin-top: 30px;
+}
+.card img {
+  margin-top: 10px;
+}
+.read_more {
+  text-align: center;
+  font: normal normal 600 22px/32px Jost;
+  letter-spacing: 0px;
+  color: #2d83ee;
+  margin: 10px 0 0 0;
+}
 @media screen and (min-width: 768px) {
   .nav__toggler {
     display: none;
