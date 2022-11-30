@@ -2,7 +2,7 @@
   --color-primary: #2584ff;
   --color-secondary: #00d9ff;
   --color-accent: #ff3400;
-  --color-headings: #1b0760;
+  --color-headings: #fdfdfd;
   --color-body: #918ca4;
   --color-body-darker: #5c5577;
   --color-border: #ccc;
@@ -35,7 +35,9 @@ body {
   line-height: 1.5;
   color: var(--color-body);
 }
-
+button {
+  cursor: pointer;
+}
 h1,
 h2,
 h3 {
@@ -56,7 +58,7 @@ header {
 }
 .nav {
   /* background: #000; */
-  margin: 0 100px;
+  margin: 0 200px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -114,6 +116,7 @@ a {
   text-decoration: none;
 }
 .nav__item button {
+  border: none;
   border-radius: 10px;
   padding: 8px 30px;
   box-shadow: 5px 8px 10px #00000029;
@@ -127,6 +130,83 @@ a {
   color: #d2d0db;
 }
 
+.grid {
+  display: grid;
+}
+.block {
+  --padding-vertical: 10rem;
+  padding: 10rem 25rem;
+}
+
+.block__heading {
+  text-align: left;
+  font: normal normal normal 60px/87px Jost;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.hero__tagline {
+  text-align: left;
+  font: normal normal normal 32px/46px Jost;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  margin-bottom: 47px;
+}
+.block__btn {
+  border-radius: 10px;
+  padding: 18px 40px;
+  box-shadow: 5px 8px 10px #00000029;
+  background: rgb(78, 57, 238);
+  background: #061b4a;
+  border: 2px solid #3856b0;
+  color: #d2d0db;
+}
+.block__btn:hover {
+  /* border: none; */
+  border-radius: 10px;
+  padding: 18px 40px;
+  box-shadow: 5px 8px 10px #00000029;
+  background: rgb(78, 57, 238);
+  background: linear-gradient(
+    90deg,
+    rgba(78, 57, 238, 1) 0%,
+    rgba(69, 123, 241, 1) 55%,
+    rgba(93, 128, 247, 1) 98%
+  );
+  color: #d2d0db;
+}
+.hero__image {
+  width: 500px;
+  margin-left: 200px;
+}
+.block__header {
+  margin-top: 20px;
+}
+.tag {
+  display: flex;
+  margin: 0 25rem;
+  /* border: 2px solid white; */
+  justify-content: space-between;
+}
+.mini_tag {
+  display: flex;
+}
+.tag_text {
+  text-align: left;
+  font: normal normal 400 22px/32px Jost;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+.tag_head {
+  text-align: center;
+  font: normal normal 600 50px/73px Jost;
+  letter-spacing: 0px;
+  color: #2d83ee;
+  text-transform: capitalize;
+  opacity: 1;
+}
 @media screen and (min-width: 768px) {
   .nav__toggler {
     display: none;
@@ -142,6 +222,9 @@ a {
 
   .nav__item {
     border: 0;
+  }
+  .grid--1x2 {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
