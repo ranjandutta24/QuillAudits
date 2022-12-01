@@ -499,10 +499,11 @@ article {
   justify-content: space-between;
   align-items: center;
   padding: 40px 50px 10px 0;
+  margin-bottom: 90px;
 }
 .hashinh .left {
-  width: 833px;
-  padding-left: 300px;
+  width: 928px;
+  padding-left: 250px;
 }
 .right img {
   width: 700px;
@@ -513,6 +514,67 @@ article {
   /* top: 30px; */
   scale: 0.4;
   /* width: 273px; */
+}
+.hashinh_text {
+  text-align: left;
+  font: normal normal 300 18px/26px Jost;
+  margin: 20px 0;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+span {
+  font-size: 24px;
+}
+input {
+  background: #0000004d 0% 0% no-repeat padding-box;
+  border-radius: 16px;
+  outline: none;
+  border: none;
+  padding: 20px 0px 20px 30px;
+  width: 557px;
+}
+.hashinh .left img {
+  width: 496px;
+}
+.apply_card_flex {
+  display: flex;
+  justify-content: center;
+}
+.apply_card {
+  width: 1255px;
+  height: 580px;
+  background: #2d83ee 0% 0% no-repeat padding-box;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 90px;
+}
+.apply_card .right img {
+  width: 475px;
+}
+.apply_card .left {
+  width: 475px;
+}
+#apply_img_holder {
+  width: 475px;
+  height: 463px;
+}
+.apply_text {
+  text-align: left;
+  font: normal normal 500 45px/65px Jost;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+#apply_now_btn {
+  width: 170px;
+  height: 48px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 9px #39140014;
+  border-radius: 6px;
+  border: none;
+  font-size: 16px;
+  margin-top: 90px;
 }
 @media screen and (min-width: 768px) {
   .nav__toggler {
