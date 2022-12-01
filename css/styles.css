@@ -582,6 +582,7 @@ input {
 }
 .top {
   display: flex;
+  justify-content: space-between;
 }
 ul {
   list-style: none;
@@ -602,6 +603,9 @@ footer {
 .right {
   width: 300px;
 } */
+.one img {
+  width: 184px;
+}
 .footer_head {
   text-align: left;
   font: normal normal 500 22px/32px Jost;
