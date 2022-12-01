@@ -409,6 +409,8 @@ article {
   justify-content: space-between;
   align-items: flex-end;
   padding: 3rem 30rem 5rem 30rem;
+}
+.testimonial {
   margin-top: 80px;
 }
 .stack_os {
@@ -448,10 +450,12 @@ article {
 }
 .faq_box {
   width: 570px;
-  height: 273px;
+  /* height: 273px; */
   box-shadow: 0px 32px 64px #3914000a;
   border: 1px solid #2d83ee;
   border-radius: 6px 6px 0px 0px;
+  padding: 43px 36px;
+  border-collapse: collapse;
 }
 .narrow {
   width: 470px;
@@ -651,6 +655,36 @@ article button {
 }
 .security {
   margin-top: 40px;
+}
+
+.collapsible__content {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+.collapsible--expanded .collapsible__content {
+  max-height: 100vh;
+  opacity: 1;
+}
+.collapsible__heading {
+  text-align: left;
+  font: normal normal 500 22px/32px Jost;
+  letter-spacing: 0px;
+  color: #391400;
+  cursor: pointer;
+}
+.collapsible__body {
+  text-align: left;
+  font: normal normal normal 18px/32px Jost;
+  letter-spacing: 0px;
+  color: #391400;
+  margin-bottom: 0;
+}
+.border_top {
+  border-top: none;
+  border-radius: 0%;
 }
 @media screen and (min-width: 768px) {
   .nav__toggler {
