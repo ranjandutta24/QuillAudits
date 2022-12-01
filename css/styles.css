@@ -252,7 +252,7 @@ article {
 }
 .after_service {
   text-align: left;
-  font: normal normal 600 40px/64px Jost;
+  font: normal normal 500 40px/64px Jost;
   letter-spacing: -0.71px;
   color: #391400;
   opacity: 1;
@@ -300,7 +300,8 @@ article {
   height: 884px;
   background: #15306f 0% 0% no-repeat padding-box;
   mix-blend-mode: multiply;
-  opacity: 0.8;
+  /* opacity: 0.8; */
+  padding-top: 50px;
 }
 .why_here {
   display: flex;
@@ -538,6 +539,7 @@ input {
   border: none;
   padding: 20px 0px 20px 30px;
   width: 557px;
+  color: rgb(195, 195, 195);
 }
 .hashinh .left img {
   width: 496px;
@@ -638,6 +640,7 @@ footer {
 }
 .icon_flex img {
   margin: 0 10px;
+  cursor: pointer;
 }
 .copy_write {
   display: flex;
@@ -724,6 +727,27 @@ article button {
   justify-content: space-between;
   align-items: center;
 }
+.slider_top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.scrol .after_service {
+  margin-top: 20px;
+}
+.btn_flex button {
+  box-shadow: 3px 3px 6px #00000029;
+  border: 1px solid #e3e3e3;
+  border-radius: 28px;
+  padding: 10px 30px;
+  margin: 0 10px;
+  background-color: #15306f00;
+  color: white;
+}
+.btn_flex button:hover {
+  background: #2d83ee 0% 0% no-repeat padding-box;
+  border: 1px solid #2d83ee;
+}
 @media screen and (max-width: 1536px) {
   header {
     /* background-color: #ff2525; */
@@ -793,7 +817,80 @@ article button {
   article {
     padding: 8rem 30rem 2rem 30rem;
   }
-}
+  .large {
+    margin-right: 0;
+  }
+  .why_here .right {
+    scale: 0.7;
+  }
+  .why_here .gred_btn {
+    font-size: 15px;
+  }
+  .why_here {
+    margin-bottom: 0;
+  }
+  .faq {
+    padding: 3rem 30rem 5rem 30rem;
+  }
+  .stack_os {
+    padding: 3rem 25rem 5rem 25rem;
+  }
+  .stack_card {
+    scale: 0.8;
+  }
+  .testimonial,
+  .our_blog {
+    padding: 3rem 24rem 5rem 24rem;
+  }
+  .blog_holder {
+    padding: 0rem 24rem 5rem 24rem;
+  }
+  .mask_card {
+    width: 292px;
+  }
+  .mask_link {
+    font: normal normal 500 19px/28px Jost;
+  }
+  .hashinh {
+    height: 400px;
+  }
 
+  .hashinh .left {
+    width: 928px;
+    padding-left: 200px;
+  }
+  .hashinh .left img {
+    width: 396px;
+  }
+  .hashinh_text {
+    font: normal normal 300 15px/26px Jost;
+    margin: 10px 0;
+  }
+  input {
+    padding: 10px 0px 10px 30px;
+    width: 457px;
+    font-size: 15px;
+  }
+  .right img {
+    width: 600px;
+    position: absolute;
+  }
+  .apply_card {
+    width: 1055px;
+    height: 450px;
+
+    padding: 0 90px;
+  }
+  #apply_img_holder {
+    width: 375px;
+    height: 373px;
+  }
+  .apply_card .right img {
+    width: 375px;
+  }
+  .apply_text {
+    font: normal normal 500 35px/55px Jost;
+  }
+}
 @media screen and (min-width: 1024px) {
 }
