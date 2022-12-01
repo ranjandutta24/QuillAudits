@@ -50,6 +50,7 @@ header {
   background: #051653 0% 0% no-repeat padding-box;
   mix-blend-mode: multiply;
   /* opacity: 0.8; */
+  padding-top: 24px;
 }
 .nav {
   /* background: #000; */
@@ -637,6 +638,19 @@ footer {
   display: flex;
   justify-content: center;
   border-top: 1px solid gray;
+}
+.li_style {
+  width: 17px;
+  position: relative;
+  top: 4px;
+}
+article button {
+  margin-top: 20px;
+  width: 180px;
+  height: 60px;
+}
+.security {
+  margin-top: 40px;
 }
 @media screen and (min-width: 768px) {
   .nav__toggler {
