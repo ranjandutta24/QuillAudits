@@ -576,6 +576,64 @@ input {
   font-size: 16px;
   margin-top: 90px;
 }
+.footer_flex {
+  display: flex;
+  justify-content: space-between;
+}
+.top {
+  display: flex;
+}
+ul {
+  list-style: none;
+}
+footer {
+  background: #28293e 0% 0% no-repeat padding-box;
+  margin-top: 90px;
+  height: 480px;
+  padding: 20px 220px 10px 220px;
+}
+.one {
+  width: 300px;
+}
+.three {
+  width: 300px;
+}
+/* .top .left,
+.right {
+  width: 300px;
+} */
+.footer_head {
+  text-align: left;
+  font: normal normal 500 22px/32px Jost;
+  letter-spacing: 0px;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+.footer_body {
+  text-align: left;
+  font: normal normal 300 18px/28px Jost;
+  letter-spacing: 0px;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+.bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.icon_flex {
+  display: flex;
+  margin: 20px 0 50px 0;
+}
+.icon_flex img {
+  margin: 0 10px;
+}
+.copy_write {
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid gray;
+}
 @media screen and (min-width: 768px) {
   .nav__toggler {
     display: none;
