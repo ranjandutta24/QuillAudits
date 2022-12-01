@@ -706,7 +706,24 @@ article button {
 .grid--1x2 {
   grid-template-columns: repeat(2, 1fr);
 }
+.right .collapsible__chevron {
+  width: 20px;
+  position: static;
+}
 
+.collapsible__chevron {
+  /* transform: rotate(-90deg); */
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+.collapsible--expanded .collapsible__chevron {
+  transform: rotate(-180deg);
+}
+.col_flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 @media screen and (max-width: 1536px) {
   header {
     /* background-color: #ff2525; */
@@ -750,7 +767,8 @@ article button {
   .first {
     width: 400px;
   }
-  .after_service {
+  .after_service,
+  #partners {
     font: normal normal 500 30px/58px Jost;
   }
   .feature_text {
@@ -758,8 +776,12 @@ article button {
 
     margin-top: 0%;
   }
-  .service {
+  .service,
+  #client {
     font: normal normal 500 14px/28px Jost;
+  }
+  #client {
+    margin-bottom: 0;
   }
   article .gred_btn {
     margin-top: 20px;
