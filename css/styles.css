@@ -162,7 +162,7 @@ a {
 .block__btn:hover {
   /* border: none; */
   border-radius: 10px;
-  padding: 18px 40px;
+  /* padding: 18px 40px; */
   box-shadow: 5px 8px 10px #00000029;
   background: rgb(78, 57, 238);
   background: linear-gradient(
@@ -188,6 +188,7 @@ a {
 }
 .mini_tag {
   display: flex;
+  align-items: center;
 }
 .tag_text {
   text-align: left;
@@ -686,24 +687,89 @@ article button {
   border-top: none;
   border-radius: 0%;
 }
-@media screen and (min-width: 768px) {
-  .nav__toggler {
-    display: none;
-  }
 
-  .nav__list {
-    width: auto;
-    display: flex;
-    font-size: 1.6rem;
-    max-height: 100%;
-    opacity: 1;
-  }
+.nav__toggler {
+  display: none;
+}
 
-  .nav__item {
-    border: 0;
+.nav__list {
+  width: auto;
+  display: flex;
+  font-size: 1.6rem;
+  max-height: 100%;
+  opacity: 1;
+}
+
+.nav__item {
+  border: 0;
+}
+.grid--1x2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media screen and (max-width: 1536px) {
+  header {
+    /* background-color: #ff2525; */
+    padding-top: 10px;
+    height: 763px;
   }
-  .grid--1x2 {
-    grid-template-columns: repeat(2, 1fr);
+  .block__heading {
+    font: normal normal normal 40px/60px Jost;
+  }
+  .block {
+    padding: 5rem 25rem;
+  }
+  .hero__image {
+    width: 350px;
+    margin-left: 100px;
+  }
+  .hero__tagline {
+    font: normal normal normal 22px/46px Jost;
+    margin-bottom: 37px;
+  }
+  .block__btn {
+    border-radius: 10px;
+    padding: 11px 20px;
+    box-shadow: 5px 8px 10px #00000029;
+    background: rgb(78, 57, 238);
+    background: #061b4a;
+    border: 2px solid #3856b0;
+    color: #d2d0db;
+    font-size: 16px;
+  }
+  .tag_head {
+    font: normal normal 600 40px/73px Jost;
+  }
+  .tag_text {
+    font: normal normal 400 15px/32px Jost;
+    line-height: 18px;
+  }
+  .feature__image {
+    width: 300px;
+  }
+  .first {
+    width: 400px;
+  }
+  .after_service {
+    font: normal normal 500 30px/58px Jost;
+  }
+  .feature_text {
+    font: normal normal 500 15px/28px Jost;
+
+    margin-top: 0%;
+  }
+  .service {
+    font: normal normal 500 14px/28px Jost;
+  }
+  article .gred_btn {
+    margin-top: 20px;
+    width: 130px;
+    height: 45px;
+    font-size: 15px;
+    padding: 0;
+  }
+  article {
+    padding: 8rem 30rem 2rem 30rem;
   }
 }
 
