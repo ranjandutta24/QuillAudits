@@ -491,10 +491,14 @@ article {
 }
 .mask_link {
   text-align: left;
-  font: normal normal 600 22px/32px Jost;
+  font: normal normal 500 22px/32px Jost;
   letter-spacing: 0px;
   color: #2d83ee;
   margin: 10px 0;
+  cursor: pointer;
+}
+.mask_link:hover {
+  font: normal normal 600 22px/32px Jost;
 }
 .date {
   text-align: left;
@@ -517,6 +521,7 @@ article {
   align-items: center;
   padding: 40px 50px 10px 0;
   margin-bottom: 90px;
+  margin-top: 20px;
 }
 .hashinh .left {
   width: 928px;
@@ -635,7 +640,7 @@ footer {
   text-align: left;
   font: normal normal 300 18px/28px Jost;
   letter-spacing: 0px;
-  color: #ffffff;
+  color: #d4d0d0;
   margin-bottom: 8px;
 }
 .bottom {
