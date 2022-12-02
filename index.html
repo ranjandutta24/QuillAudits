@@ -29,26 +29,41 @@
         <nav class="nav ">
             <a href="/"><img src="images/Group 46.svg" alt=""></a>
 
-            <ul class="list nav__list ">
+            <ul class="list nav__list nav__links ">
 
-                <li class="nav__item"><a href="#Audit Services">Audit Services</a></li>
-                <li class="nav__item"><a href="#section-about_me">Pricing</a></li>
-                <li class="nav__item"><a href="#Pricing">Blogs</a></li>
-                <li class="nav__item"><a href="#Resources">Resources</a></li>
+                <li class="nav__item"><a class="nav__link" href="#Audit-Services">Audit Services</a></li>
+                <li class="nav__item"><a class="nav__link" href="#Pricing">Pricing</a></li>
+                <li class="nav__item"><a class="nav__link" href="#Blogs">Blogs</a></li>
+                <li class="nav__item"><a class="nav__link" href="#Resources">Resources</a></li>
 
-                <li class="nav__item"><button class="gred_btn">Portfolio</button></li>
-                <li class="nav__item"><button class="gred_btn">Request An Audit</button></li>
+                <li class="nav__item"><button class="gred_btn show-modal">Portfolio</button></li>
+                <li class="nav__item"><button class="gred_btn show-modal">Request An Audit</button></li>
                 <!-- <li class="nav__item"><a href="#Resources">Resources</a></li> -->
             </ul>
         </nav>
+
+        <div class="modal hidden">
+            <button class="close-modal zin">&times;</button>
+            <h1 class="zin">1920X1080</h1>
+            <p class="zin">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                mollit anim id est laborum.
+            </p>
+        </div>
+        <div class="overlay hidden"></div>
         <section class="block  hero">
             <div class="container grid grid--1x2">
                 <div class="block__header hero__content" data-aos="fade-right">
                     <h1 class="block__heading">Emerging Web3 Ventures Trust Our Smart Contract Audits & Diligence
                         Services</h1>
                     <p class="hero__tagline">QuillAudits, Making web3 a safer place</p>
-                    <button class="block__btn">Request Free Quote</button>
-                    <button class="block__btn" style="margin-left: 45px;">Explore Services</button>
+                    <button class="block__btn show-modal">Request Free Quote</button>
+                    <button class="block__btn show-modal" style="margin-left: 45px;">Explore Services</button>
 
                 </div>
                 <picture data-aos="zoom-in" style="margin-top: 6rem;">
@@ -81,7 +96,7 @@
         </div>
 
     </header>
-    <section class="tag_con">
+    <section class="tag_con" id="Audit-Services">
         <h6 id="client">CLIENTS</h6>
         <h6 id="partners">Partners</h6>
         <div class="tag2">
@@ -112,7 +127,7 @@
                 <li> <img class="li_style" src="/images/aa.jpg" alt=""> Solana</li>
                 <li> <img class="li_style" src="/images/bb.jpg" alt=""> EOS</li>
             </ul>
-            <button class="gred_btn">Explore</button>
+            <button class="gred_btn btn--scroll-to">Explore</button>
 
         </div>
         <picture data-aos="zoom-in-left">
@@ -175,7 +190,7 @@
         <source type="image/png" srcset="images/Group42280.png 1x, images/Group42280@2x.png 2x" />
         <img class="web3__image" src="/images/Group42280@2x.png" alt="">
     </picture>
-    <div class="scrol">
+    <div class="scrol" id="Resources">
         <div class="slider_top">
             <h6 class="service" style="letter-spacing: 3px;">PORTFOLIO</h6>
             <h6 class="after_service" style="margin-bottom: 22px ; color: white;">Latest Work</h6>
@@ -495,7 +510,7 @@
     </section>
 
     <section>
-        <div class="our_blog">
+        <div class="our_blog" id="Blogs">
             <div class="left">
                 <h6 class="service" style=" letter-spacing: 3px;">OUR BLOG</h6>
                 <h6 class="after_service">Catch up on the news</h6>
@@ -552,7 +567,7 @@
 
         </div>
     </section>
-    <section class="apply_card_flex">
+    <section class="apply_card_flex" id="Pricing">
         <div class="apply_card">
             <div class="left">
                 <h6 class="apply_text">Join Hands With us to secure Web3 Together</h6>
