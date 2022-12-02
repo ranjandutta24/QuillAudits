@@ -4,7 +4,6 @@ const collapsibles = document.querySelectorAll(".collapsible");
 collapsibles.forEach(item =>
   item.addEventListener("click", function () {
     this.classList.toggle("collapsible--expanded");
-    console.log(`object`);
   })
 );
 
@@ -93,3 +92,30 @@ const slider = function () {
   });
 };
 slider();
+
+// Counting
+
+const counting = (number, classId, sp) => {
+  let value = 0;
+  let endvalue = number;
+  let counter = setInterval(() => {
+    if (endvalue > 50) {
+      value <= endvalue - Math.round(endvalue / 200)
+        ? (value += Math.round(endvalue / 200))
+        : (value += 1);
+    } else {
+      value += 1;
+    }
+
+    document.querySelector(`.${classId}`).textContent = `${value.toFixed(
+      0
+    )}${sp}`;
+
+    if (value >= endvalue) {
+      clearInterval(counter);
+    }
+  }, 1);
+};
+counting(600, "lines_of_code", `K`);
+counting(12, "amount_lost", `.8B`);
+counting(14, "amount_protected", `.6B`);
