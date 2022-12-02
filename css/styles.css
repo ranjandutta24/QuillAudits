@@ -128,6 +128,7 @@ a {
 
 .grid {
   display: grid;
+  align-items: center;
 }
 .block {
   --padding-vertical: 10rem;
@@ -154,24 +155,19 @@ a {
   border-radius: 10px;
   padding: 18px 40px;
   box-shadow: 5px 8px 10px #00000029;
-  background: rgb(78, 57, 238);
+
   background: #061b4a;
   border: 2px solid #3856b0;
   color: #d2d0db;
 }
 .block__btn:hover {
-  /* border: none; */
-  border-radius: 10px;
-  /* padding: 18px 40px; */
-  box-shadow: 5px 8px 10px #00000029;
-  background: rgb(78, 57, 238);
   background: linear-gradient(
     90deg,
     rgba(78, 57, 238, 1) 0%,
     rgba(69, 123, 241, 1) 55%,
     rgba(93, 128, 247, 1) 98%
   );
-  color: #d2d0db;
+  /* transition: all 4s ease-out; */
 }
 .hero__image {
   width: 500px;
@@ -267,6 +263,8 @@ article {
 }
 .gred_btn {
   border: none;
+  border: 1px solid #5d80f7;
+
   border-radius: 10px;
   padding: 12px 30px;
   box-shadow: 5px 8px 10px #00000029;
@@ -278,6 +276,12 @@ article {
     rgba(93, 128, 247, 1) 98%
   );
   color: #d2d0db;
+}
+.gred_btn:hover {
+  border: 1px solid #0e4a98;
+  background: rgb(255, 255, 255);
+  color: #0e4a98;
+  transition: all 0.5s;
 }
 .feature__image {
   width: 400px;
@@ -394,6 +398,12 @@ article {
   opacity: 1;
   margin-top: 30px;
   box-shadow: 5px 5px 15px #00000029;
+  cursor: pointer;
+}
+.card:hover {
+  box-shadow: 0px 7px 15px #00000029;
+  margin-top: 22px;
+  transition: all 0.3s;
 }
 .card img {
   margin-top: 10px;
