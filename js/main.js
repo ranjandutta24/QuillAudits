@@ -158,3 +158,6 @@ document.querySelector(".nav__links").addEventListener("click", function (e) {
     document.querySelector(id).scrollIntoView({ behavior: "smooth" });
   }
 });
+
+const op = document.querySelector("#lan");
+console.log(op);

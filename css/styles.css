@@ -498,7 +498,7 @@ article {
   cursor: pointer;
 }
 .mask_link:hover {
-  font: normal normal 600 22px/32px Jost;
+  font-weight: 600;
 }
 .date {
   text-align: left;
@@ -651,7 +651,7 @@ footer {
 }
 .icon_flex {
   display: flex;
-  margin: 20px 0 50px 0;
+  margin: 15px 0 37px 0;
 }
 .icon_flex img {
   margin: 0 10px;
@@ -660,7 +660,7 @@ footer {
 .copy_write {
   display: flex;
   justify-content: center;
-  border-top: 1px solid gray;
+  border-top: 1px solid rgb(62, 62, 62);
 }
 .li_style {
   width: 20px;
@@ -763,6 +763,12 @@ article button {
   background: #2d83ee 0% 0% no-repeat padding-box;
   border: 1px solid #2d83ee;
 }
+select {
+  margin-top: 15px;
+  width: 170px;
+  height: 50px;
+  padding-left: 20px;
+}
 
 /* SLIDER */
 .slider {
@@ -812,6 +818,10 @@ article button {
   color: white;
   font-size: 15px;
   margin: 0 5px;
+}
+.slide_btn:hover {
+  background-color: #ffffff;
+  color: #185db7;
 }
 .slider__btn {
   position: absolute;
@@ -896,7 +906,7 @@ article button {
     background: #061b4a;
     border: 2px solid #3856b0;
     color: #d2d0db;
-    font-size: 16px;
+    font-size: 13px;
   }
   .tag_head {
     font: normal normal 600 40px/73px Jost;
@@ -987,8 +997,8 @@ article button {
     margin: 10px 0;
   }
   input {
-    padding: 10px 0px 10px 30px;
-    width: 457px;
+    padding: 15px 0px 15px 30px;
+    width: 420px;
     font-size: 15px;
   }
   .right img {
@@ -1010,6 +1020,56 @@ article button {
   }
   .apply_text {
     font: normal normal 500 35px/55px Jost;
+  }
+  .scrol {
+    padding-top: 30px;
+  }
+  .scrol .after_service {
+    margin-top: 10px;
+  }
+  .btn_flex button {
+    font-size: 13px;
+  }
+  .slide_flex {
+    padding: 70px 245px 10px 250px;
+  }
+  .slide img {
+    width: 200px;
+    margin-bottom: 10px;
+  }
+  .slide_btn {
+    width: 150px;
+    height: 42px;
+    font-size: 13px;
+    margin: 0 5px;
+  }
+  .slide_text {
+    font: normal normal 500 18px/32px Jost;
+  }
+  .scrol {
+    height: 755px;
+  }
+  .slider {
+    height: 44rem;
+  }
+  .gred_btn {
+    padding: 10px 23px;
+    font-size: 13px;
+  }
+  #logo {
+    width: 80%;
+  }
+  .nav__item {
+    font-size: 13px;
+  }
+  .copy_write {
+    padding-top: 10px;
+  }
+  .tow .top {
+    justify-content: center;
+  }
+  footer {
+    padding: 20px 150px 10px 150px;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -1060,4 +1120,8 @@ article button {
 } */
 .zin {
   z-index: 1000;
+}
+#logo {
+  position: relative;
+  top: 5px;
 }
